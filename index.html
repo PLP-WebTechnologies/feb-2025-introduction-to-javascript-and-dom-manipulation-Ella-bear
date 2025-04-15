@@ -22,8 +22,8 @@
     <div class="hero">
         <div class="hero-text">
             <h1>Enjoy Your Perfect Brew</h1>
-            <p>Discover the finest coffee blends and enjoy the aroma of freshly brewed coffee. Your perfect cup awaits!</p>
-            <button>Order Now</button>
+            <p id="text">Discover the finest coffee blends and enjoy the aroma of freshly brewed coffee. Your perfect cup awaits!</p>
+            <button id="submit">Order Now</button>
         </div>
         <div class="hero-image">
             <img src="images/coffee.jpg" alt="Coffee Cup">
@@ -40,12 +40,10 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
             
-            <button type="submit">Send Message</button>
+            <button id="submit">Send Message</button>
+            
         </form>
-        <p id="response-message" style="display: none; color: green; margin-top: 10px;"></p>
+        <p id="message" style="display: none; color: green; margin-top: 10px;"></p>
     </div>
-
-    <!-- Link to script.js -->
-    <script src="script.js"></script>
 </body>
 </html>
