@@ -8,15 +8,6 @@ let contact = {
 // Log the contact object to the console
 console.log(contact);
 
-// Dynamically add list items
-const list = document.getElementById("list"); // Select the <ul> element with id "list"
-const addButton = document.getElementById("addButton"); // Select the button with id "addButton"
-
-addButton.addEventListener("click", () => {
-    const newItem = document.createElement("li"); // Create a new <li> element
-    newItem.textContent = "New Item"; // Set the text content of the new list item
-    list.appendChild(newItem); // Append the new list item to the <ul>
-});
 
 // Modify CSS 
 const text = document.getElementById("text"); // Select the <p> element with id "text"
@@ -30,4 +21,6 @@ const message = document.getElementById("message"); // Select the <p> element wi
 button.addEventListener("click", () => {
     message.textContent = "You clicked the button!"; // Change the text content of the <p>
 });
+
+
 
